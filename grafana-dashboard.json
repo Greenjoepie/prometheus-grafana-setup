@@ -300,7 +300,7 @@
           "expr": "avg(100 - (avg by (node) (rate(node_cpu_seconds_total{mode=\"idle\"}[5m])) * 100))",
           "hide": false,
           "instant": false,
-          "legendFormat": "__auto",
+          "legendFormat": "CPU Usage",
           "range": true,
           "refId": "B"
         }
@@ -726,7 +726,7 @@
       "type": "bargauge"
     }
   ],
-  "refresh": "10s",
+  "refresh": false,
   "schemaVersion": 38,
   "tags": [
     "kubernetes",
@@ -741,13 +741,13 @@
     "list": []
   },
   "time": {
-    "from": "now-6h",
-    "to": "now"
+    "from": "2023-11-09T14:21:16.959Z",
+    "to": "2023-11-09T15:06:31.527Z"
   },
   "timepicker": {},
   "timezone": "",
   "title": "Kubernetes Cluster for RAM and CPU Utilization",
   "uid": "gzIcCaiVz",
-  "version": 3,
+  "version": 4,
   "weekStart": ""
 }
