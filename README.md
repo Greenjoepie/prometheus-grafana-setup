@@ -4,5 +4,6 @@ The order of application is:
 3. kube-state-metrics-configs  
 4. kubernetes-alert-manager  
 5. kubernetes-node-exporter  
-6. kubernetes-grafana  
+6. kubernetes-grafana
+
 Then import the grafana-dashboard.json in the Grafana application.  
