@@ -740,10 +740,6 @@
   "templating": {
     "list": []
   },
-  "time": {
-    "from": "2023-11-09T14:21:16.959Z",
-    "to": "2023-11-09T15:06:31.527Z"
-  },
   "timepicker": {},
   "timezone": "",
   "title": "Kubernetes Cluster for RAM and CPU Utilization",
