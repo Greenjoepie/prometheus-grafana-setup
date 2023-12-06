@@ -1,11 +1,16 @@
-First create the namespace monitoring.
+First install k3s using the following command:
 
-Then apply the folders in the following order:  
-1. kubernetes-persistent-volume  
-2. kubernetes-prometheus  
-3. kube-state-metrics-configs  
-4. kubernetes-alert-manager  
-5. kubernetes-node-exporter  
-6. kubernetes-grafana
+```curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--disable=metrics-server" sh -```
 
-Then import the grafana-dashboard.json in the Grafana application.  
+Then create the namespace monitoring.
+
+Then you can apply the folders/files in the following order:  
+1. metrics-server-components.yaml  
+2. kubernetes-persistent-volume/  
+3. kubernetes-prometheus/  
+4. kube-state-metrics-configs/  
+5. kubernetes-alert-manager/  
+6. kubernetes-node-exporter/  
+7. kubernetes-grafana/
+
+Finally import the grafana-dashboard.json in the Grafana application.  
