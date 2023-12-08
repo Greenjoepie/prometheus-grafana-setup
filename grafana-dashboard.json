@@ -216,6 +216,8 @@
             "axisColorMode": "text",
             "axisLabel": "",
             "axisPlacement": "auto",
+            "axisSoftMax": 100,
+            "axisSoftMin": 0,
             "barAlignment": 0,
             "drawStyle": "line",
             "fillOpacity": 0,
@@ -726,7 +728,7 @@
       "type": "bargauge"
     }
   ],
-  "refresh": false,
+  "refresh": "5s",
   "schemaVersion": 38,
   "tags": [
     "kubernetes",
@@ -740,10 +742,14 @@
   "templating": {
     "list": []
   },
+  "time": {
+    "from": "2023-11-09T14:21:16.959Z",
+    "to": "2023-11-09T15:06:31.527Z"
+  },
   "timepicker": {},
   "timezone": "",
   "title": "Kubernetes Cluster for RAM and CPU Utilization",
   "uid": "gzIcCaiVz",
-  "version": 4,
+  "version": 3,
   "weekStart": ""
 }
