@@ -9,8 +9,7 @@ Then you can apply the folders/files in the following order:
 2. kubernetes-persistent-volume/  
 3. kubernetes-prometheus/  
 4. kube-state-metrics-configs/  
-5. kubernetes-alert-manager/  
-6. kubernetes-node-exporter/  
-7. kubernetes-grafana/
+5. kubernetes-node-exporter/  
+6. kubernetes-grafana/
 
 Finally import the grafana-dashboard.json in the Grafana application.  
