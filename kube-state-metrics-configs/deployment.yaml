@@ -21,7 +21,7 @@ spec:
     spec:
       automountServiceAccountToken: true
       containers:
-      - image: harbor.core.local/k3s/kube-state-metrics:v2.3.0
+      - image: harbor.core.local/library/kube-state-metrics:v2.3.0
         livenessProbe:
           httpGet:
             path: /healthz
