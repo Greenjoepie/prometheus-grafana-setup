@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: grafana
-        image: harbor.core.local/k3s/grafana:latest
+        image: harbor.core.local/library/grafana:latest
         ports:
         - name: grafana
           containerPort: 3000
